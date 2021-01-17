@@ -1,0 +1,6 @@
+1. Personal Information
+2. Experience
+3. Education
+4. Interest
+5. Skills
+6. Summary
