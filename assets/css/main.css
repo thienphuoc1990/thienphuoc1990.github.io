@@ -301,3 +301,19 @@ header nav.custom-nav.top-nav a.nav-link:hover {
   margin-bottom: 20px;
 }
 /* End: Education */
+/* Begin: Footer */
+footer {
+  background-color: #1a222c;
+  color: #fff;
+  padding: 10px 0px;
+  text-align: center;
+}
+footer .btn-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+footer .btn-to-top a {
+  color: #ffd666;
+}
+/* End: Footer */

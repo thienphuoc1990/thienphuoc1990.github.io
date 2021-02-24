@@ -80,13 +80,11 @@
                                 </div>
                                 <div class="list-infos">
                                     <div class="info" v-for="item in informations.infos">
-                                        <div class="icon-wrapper"><span v-html="item.icon" class="icon-wrapper"></span>
-                                        </div>
+                                        <div><span v-html="item.icon" class="icon-wrapper"></span></div>
                                         <div class="content">{{item.text}}</div>
                                     </div>
                                     <div class="info" v-for="item in informations.links">
-                                        <div class="icon-wrapper"><span v-html="item.icon" class="icon-wrapper"></span>
-                                        </div>
+                                        <div><span v-html="item.icon" class="icon-wrapper"></span></div>
                                         <div class="content"><a v-bind:href="item.link"
                                                 v-bind:title="item.title">{{item.title}}</a></div>
                                     </div>
@@ -95,7 +93,7 @@
                         </div>
                         <div class="col-md-8">
                             <div class="short-describe">
-                                <h1>Hello, I'm Đinh Thiên Phước</h1>
+                                <h1>Hello, I'm Dinh Thien Phuoc</h1>
                                 <h2>A Web, Mobile, PC Application Full Stack Developer</h2>
                                 <ul>
                                     <li v-for="item in informations.summary" v-html="item"></li>
@@ -201,6 +199,16 @@
             </div>
         </div>
 
+        <!-- Begin: Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col">© Phuoc Dinh</div>
+                </div>
+            </div>
+            <div class="btn-to-top"><span class="icon-wrapper"><a href="#particles-js"><i class="fas fa-arrow-up"></i></a></span></div>
+        </footer>
+        <!-- End: Footer -->
     </div>
 
     <!-- Javascript -->
