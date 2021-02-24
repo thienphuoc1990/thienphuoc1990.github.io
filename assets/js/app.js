@@ -61,7 +61,8 @@ const vm = new Vue({
                     "4 years experience in <strong>PHP</strong> Web Application Development (<strong>Laravel, Wordpress, Magento</strong>)",
                     "1+ year experience in <strong>React Native</strong>, 1 year experience in Android (Kotlin)",
                     "1+ year experience in <strong>C#</strong> Windows Application Development",
-                    "1+ year experience in <strong>NodeJS</strong> Crawler Data Application Development"
+                    "1+ year experience in <strong>NodeJS</strong> Crawler Data Application Development",
+                    "5 year experience in <strong>Remote</strong> Working"
                 ]
             },
             skills: [
