@@ -110,7 +110,7 @@ const vm = new Vue({
                     time_period: "2016 - now",
                     job_details: [
                         {
-                            name: "Develop Vuaphapthuat.go.vn auto application - C#",
+                            name: "Develop Vuaphapthuat.go.vn auto application - C# (Use lib Auto IT, OpenCV, Tesseract OCR)",
                             link: [{
                                 title: "VPT Supporter",
                                 link: "https://github.com/thienphuoc1990/AutoVPT"
