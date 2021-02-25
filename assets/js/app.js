@@ -42,6 +42,10 @@ const vm = new Vue({
                     {
                         icon: '<i class="fas fa-mobile-alt"></i>',
                         text: '0764.832.673',
+                    },
+                    {
+                        icon: '<i class="fab fa-skype"></i>',
+                        text: 'dinhthienphuoc1990@gmail.com'
                     }
                 ],
                 links: [
