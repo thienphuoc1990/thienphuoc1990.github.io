@@ -66,6 +66,8 @@ const vm = new Vue({
                     "1+ year experience in <strong>React Native</strong>, 1 year experience in Android (Kotlin)",
                     "1+ year experience in <strong>C#</strong> Windows Application Development",
                     "1+ year experience in <strong>NodeJS</strong> Crawler Data Application Development",
+                    "1+ year experience in <strong>Github/Gitlab</strong> CI/CD",
+                    "2+ year experience in <strong>Docker - Kubernetes</strong>",
                     "5 year experience in <strong>Remote</strong> Working"
                 ]
             },
@@ -77,8 +79,11 @@ const vm = new Vue({
                         "PHP Laravel Framework, Wordpress CMS, Magento e-Commerce CMS Platforms",
                         "React Native, Kotlin/Java with Android Studio",
                         "MySQL, Postgresql",
-                        "Python",
-                        "C# with Visual Studio"
+                        "Python & Django Framework",
+                        "C# with Visual Studio",
+                        "Docker - Kubernetes",
+                        "Github/Gitlab CI/CD",
+                        "Golang"
                     ]
                 },
                 {
@@ -105,9 +110,34 @@ const vm = new Vue({
             ],
             work_history: [
                 {
+                    job: "Software Engineer",
+                    company: ' | <a href="https://infodation.com/" title="INFOdation VN Company">INFOdation VN Company</a>',
+                    time_period: "2021 - now",
+                    job_details: [
+                        {
+                            name: ".Net, Angular Fullstack Developer, DevOps(backup) for project Fiber Bouwstraat"
+                        }
+                    ]
+                },
+                {
+                    job: "Freelance Fullstack Developer",
+                    time_period: "2021 - now",
+                    job_details: [
+                        {
+                            name: "ReactJS/Nodejs Developer in project Goodjobs of BNext team"
+                        },
+                        {
+                            name: "ReactJS Developer in project DatVang of BNext team"
+                        },
+                        {
+                            name: "Python(Django) Developer in project Rallyinside of ECEP team"
+                        }
+                    ]
+                },
+                {
                     job: "Outsource Web - Mobile - PC Application Developer",
                     company: ' | <a href="https://hdpsolutions.com/" title="HPDSolution">HPDSolution</a>',
-                    time_period: "2016 - now",
+                    time_period: "2016 - 2021",
                     job_details: [
                         {
                             name: "Develop Vuaphapthuat.go.vn auto application - C# (Use lib Auto IT, OpenCV, Tesseract OCR)",
@@ -183,7 +213,7 @@ const vm = new Vue({
                 {
                     job: "Web - PC Application Developer, QA",
                     company: ' | <a href="https://ilearnvn.org/" title="ECEP Group">ECEP Group</a>',
-                    time_period: "2015 - now",
+                    time_period: "2015 - 2021",
                     job_details: [
                         {
                             name: "Participate in develop, QA and SEO e-commerce site with Magento CMS Platform",
