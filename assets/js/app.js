@@ -263,6 +263,12 @@ const vm = new Vue({
             ],
             education: [
                 {
+                    level: "Information Technology Master's Degree",
+                    school: "Nha Trang University",
+                    time_period: "2021 - 2023",
+                    address: "02 Nguyen Dinh Chieu Street, Nha Trang City, Khanh Hoa Province"
+                },
+                {
                     level: "Computer Science Bachelor Diploma",
                     school: "Open University",
                     time_period: "2008 - 2015",
