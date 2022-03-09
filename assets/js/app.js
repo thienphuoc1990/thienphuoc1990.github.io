@@ -53,22 +53,19 @@ const vm = new Vue({
                         icon: '<i class="fab fa-facebook"></i>',
                         link: 'https://www.facebook.com/thienphuoc.dinh/',
                         title: 'Facebook Dinh Thien Phuoc'
-                    },
-                    {
-                        icon: '<i class="fab fa-linkedin-in"></i>',
-                        link: 'https://www.linkedin.com/in/%C4%91inh-ph%C6%B0%E1%BB%9Bc-ab462b188/',
-                        title: 'Linkedin Dinh Thien Phuoc'
                     }
                 ],
                 summary: [
-                    "I have about 3 years experience in <strong>HTML5/CSS3/JS, Bootstrap, JQuery, ReactJS, VueJS</strong>",
+                    "I have about 4 years experience in <strong>HTML5/CSS3/JS, Bootstrap, JQuery, ReactJS - NextJS, VueJS - NuxtJS</strong>",
+                    "1+ year experience in <strong>NodeJS - NestJS</strong>",
                     "4 years experience in <strong>PHP</strong> Web Application Development (<strong>Laravel, Wordpress, Magento</strong>)",
                     "1+ year experience in <strong>React Native</strong>, 1 year experience in Android (Kotlin)",
                     "1+ year experience in <strong>C#</strong> Windows Application Development",
                     "1+ year experience in <strong>NodeJS</strong> Crawler Data Application Development",
                     "1+ year experience in <strong>Github/Gitlab</strong> CI/CD",
                     "2+ year experience in <strong>Docker - Kubernetes</strong>",
-                    "5 year experience in <strong>Remote</strong> Working"
+                    "6 year experience in <strong>Remote</strong> Working",
+                    "2 years experience in working with foreigners"
                 ]
             },
             skills: [
@@ -76,9 +73,11 @@ const vm = new Vue({
                     name: "Programming Languages And Tools",
                     skills: [
                         "HTML5/CSS3, Jquery, ReactJS, VueJS, NodeJS, SASS, LESS, Bootstrap, AngularJS",
+                        "NestJS Framework, NextJS Framework, Angular Framework, NuxtJS Framework",
                         "PHP Laravel Framework, Wordpress CMS, Magento e-Commerce CMS Platforms",
                         "React Native, Kotlin/Java with Android Studio",
-                        "MySQL, Postgresql",
+                        "GraphQL",
+                        "MySQL, Postgresql, MongoDB",
                         "Python & Django Framework",
                         "C# with Visual Studio",
                         "Docker - Kubernetes",
