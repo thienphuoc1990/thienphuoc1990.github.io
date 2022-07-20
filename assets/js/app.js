@@ -110,8 +110,18 @@ const vm = new Vue({
             work_history: [
                 {
                     job: "Software Engineer",
-                    company: ' | <a href="https://infodation.com/" title="INFOdation VN Company">INFOdation VN Company</a>',
+                    company: ' | <a href="https://www.gforces.co.uk/" title="GForces">GForces</a>',
                     time_period: "2021 - now",
+                    job_details: [
+                        {
+                            name: "PHP, Angular Fullstack Developer"
+                        }
+                    ]
+                },
+                {
+                    job: "Software Engineer",
+                    company: ' | <a href="https://infodation.com/" title="INFOdation VN Company">INFOdation VN Company</a>',
+                    time_period: "2021 - 2021",
                     job_details: [
                         {
                             name: ".Net, Angular Fullstack Developer, DevOps(backup) for project Fiber Bouwstraat"
