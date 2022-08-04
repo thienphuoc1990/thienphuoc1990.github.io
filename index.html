@@ -98,6 +98,9 @@
                                 <ul>
                                     <li v-for="item in informations.summary" v-html="item"></li>
                                 </ul>
+                                <p>In addition to a passion for technology, I enjoy being with my family,
+                                    playing guitar, singing, reading stories, playing basketball, drinking
+                                    coffee and learning new technologies.</p>
                             </div>
                         </div>
                     </div>
@@ -131,29 +134,55 @@
         <div class="container">
             <div class="row">
                 <div class="col-md">
-                    <!-- Begin: Work History -->
-                    <section id="work-history" class="pt-50">
-                        <div class="row">
-                            <div class="col">
-                                <h2 class="section-title fancy"><span>Work History</span></h2>
-                            </div>
+                    <div class="row">
+                        <div class="col">
+                            <!-- Begin: Work History -->
+                            <section id="work-history" class="pt-50">
+                                <div class="row">
+                                    <div class="col">
+                                        <h2 class="section-title fancy"><span>Work History</span></h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12" class="period" v-for="period in work_history">
+                                        <p><span class="period">{{period.time_period}}</span><span v-if="period.company"
+                                                v-html="period.company"></span></p>
+                                        <h3 class="jobs">{{period.job}}</h3>
+                                        <ul class="circle">
+                                            <li v-for="item in period.job_details">{{item.name}}<span v-if="item.link">: <a
+                                                        v-for="link in item.link" v-bind:href="link.link"
+                                                        v-bind:title="link.title">{{link.title}} </a></span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- End: Work History -->
                         </div>
-                        <div class="row">
-                            <div class="col-md-12" class="period" v-for="period in work_history">
-                                <p><span class="period">{{period.time_period}}</span><span v-if="period.company"
-                                        v-html="period.company"></span></p>
-                                <h3 class="jobs">{{period.job}}</h3>
-                                <ul class="circle">
-                                    <li v-for="item in period.job_details">{{item.name}}<span v-if="item.link">: <a
-                                                v-for="link in item.link" v-bind:href="link.link"
-                                                v-bind:title="link.title">{{link.title}} </a></span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                    <!-- End: Work History -->
+                    </div>
                 </div>
                 <div class="col-md">
+                    <div class="row">
+                        <div class="col">
+                            <!-- Begin: Project -->
+                            <section id="project" class="pt-50">
+                                <div class="row">
+                                    <div class="col">
+                                        <h2 class="section-title fancy"><span>About some Projects</span></h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 project" v-for="project in projects">
+                                        <h3 class="name">{{project.name}}</h3>
+                                        <p class="description">{{project.description}}</p>
+                                        <p class="participate-in">{{project.participate_in}}</p>
+                                        <p v-if="project.link" class="link"><i class="fas fa-globe"></i> <a v-bind:href="project.link">{{project.link}}</a></p>
+                                        <hr />
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- End: Education -->
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col">
                             <!-- Begin: Education -->
@@ -173,26 +202,6 @@
                                 </div>
                             </section>
                             <!-- End: Education -->
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <!-- Begin: Interest -->
-                            <section id="education" class="pt-50">
-                                <div class="row">
-                                    <div class="col">
-                                        <h2 class="section-title fancy"><span>Interest</span></h2>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <p>In addition to a passion for technology, I enjoy being with my family,
-                                            playing guitar, singing, reading stories, playing basketball, drinking
-                                            coffee and learning new technologies.</p>
-                                    </div>
-                                </div>
-                            </section>
-                            <!-- End: Interest -->
                         </div>
                     </div>
                 </div>

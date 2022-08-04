@@ -301,6 +301,28 @@ header nav.custom-nav.top-nav a.nav-link:hover {
   margin-bottom: 20px;
 }
 /* End: Education */
+/* Begin: Participate in the project */
+#project .project {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+#project .project:last-child {
+  border: 0px;
+  padding-bottom: 0px;
+}
+#project .name {
+  margin: 0px;
+}
+#project .description {
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+#project .link {
+  margin-top: 5px;
+  font-size: 12px;
+}
+/* End: Participate in the project */
 /* Begin: Footer */
 footer {
   background-color: #1a222c;

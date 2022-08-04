@@ -2,7 +2,6 @@ const vm = new Vue({
     el: '#app',
     data() {
         return {
-            test: 'Hello World!',
             top_menu: [
                 {
                     name: "Skills",
@@ -17,8 +16,8 @@ const vm = new Vue({
                     link: "#education"
                 },
                 {
-                    name: "Interest",
-                    link: "#interest"
+                    name: "Projects",
+                    link: "#project"
                 }
             ],
             informations: {
@@ -289,6 +288,49 @@ const vm = new Vue({
                     time_period: "2006 - 2008",
                     address: "Nha Trang City, Khanh Hoa Province"
                 }
+            ],
+            projects: [
+                {
+                    name: "Online Payment & Valuation services",
+                    description: "Industry-Leading Car Dealer Websites",
+                    participate_in: "Participate in develop new feature, maintain Online Payment & Valuation services as Full-Stack PHP & Angular Developer",
+                    link: "https://www.dealerwebsite.co.uk/"
+                },
+                {
+                    name: "Symphony",
+                    description: "The largest global community in Financial Services",
+                    participate_in: "Participate in develop new feature, maintain web app as ReactJS Frontend Developer",
+                    link: "https://symphony.com/"
+                },
+                {
+                    name: "Fiber Bouwstraat",
+                    description: "Telecom IT Solutions market",
+                    participate_in: "Participate in develop new feature, maintain web app as Full-Stack .NET & Angular Developer",
+                },
+                {
+                    name: "DatVang",
+                    description: "The largest information channel about Planning, Land Price, Investment Project",
+                    participate_in: "Participate in develop new feature web app as Frontend ReactJS Developer",
+                    link: "https://datvangvietnam.net/"
+                },
+                {
+                    name: "Goodjobs",
+                    description: "HeadHunter's CV Management & Earning Platform",
+                    participate_in: "Participate in develop new feature web app as Fullstack ReactJS & NodeJS Developer",
+                    link: "https://goodjobs.vn/"
+                },
+                {
+                    name: "Chotructuyen",
+                    description: "Specialized shopping site TOOLS, TOOLS, MACHINE & EQUIPMENT for civil, agricultural, industrial and construction.",
+                    participate_in: "Participate in develop new feature, maintain web app as Magento Developer",
+                    link: "https://chotructuyen.co/"
+                },
+                {
+                    name: "ECEP Virtual Campus",
+                    description: "ECEP is collecting video lectures from Coursera, MIT Open Courseware, Open Yale courses, Webcast Berkeley, Youtube etc. We build ECEP Learning Content Management System (LCMS) with web and mobile applications to support both trainers and learners.",
+                    participate_in: "Participate in develop new feature, maintain web app as Full-Stack Developer",
+                    link: "https://chotructuyen.co/"
+                },
             ]
         }
     },
