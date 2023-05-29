@@ -18,6 +18,10 @@ const vm = new Vue({
                 {
                     name: "Projects",
                     link: "#project"
+                },
+                {
+                    name: "Certificates",
+                    link: "#certificates"
                 }
             ],
             informations: {
@@ -36,11 +40,11 @@ const vm = new Vue({
                     },
                     {
                         icon: '<i class="fas fa-map-marked-alt"></i>',
-                        text: '19 Nguyen Dinh Chieu Street, Vinh Phuoc Ward, Nha Trang City, Khanh Hoa Province',
+                        text: '86/1 Nguyen Dinh Chieu Street, Vinh Phuoc Ward, Nha Trang City, Khanh Hoa Province',
                     },
                     {
                         icon: '<i class="fas fa-mobile-alt"></i>',
-                        text: '0764.832.673',
+                        text: '+84 764 832 673',
                     },
                     {
                         icon: '<i class="fab fa-skype"></i>',
@@ -55,16 +59,16 @@ const vm = new Vue({
                     }
                 ],
                 summary: [
-                    "I have about 4 years experience in <strong>HTML5/CSS3/JS, Bootstrap, JQuery, ReactJS - NextJS, VueJS - NuxtJS</strong>",
+                    "I have about 6 years experience in <strong>HTML5/CSS3/JS, Bootstrap, JQuery, ReactJS - NextJS, VueJS - NuxtJS</strong>",
                     "1+ year experience in <strong>NodeJS - NestJS</strong>",
-                    "4 years experience in <strong>PHP</strong> Web Application Development (<strong>Laravel, Wordpress, Magento</strong>)",
+                    "6 years experience in <strong>PHP</strong> Web Application Development (<strong>Yii2, Laravel, Wordpress, Magento</strong>)",
                     "1+ year experience in <strong>React Native</strong>, 1 year experience in Android (Kotlin)",
                     "1+ year experience in <strong>C#</strong> Windows Application Development",
                     "1+ year experience in <strong>NodeJS</strong> Crawler Data Application Development",
                     "1+ year experience in <strong>Github/Gitlab</strong> CI/CD",
-                    "2+ year experience in <strong>Docker - Kubernetes</strong>",
-                    "6 year experience in <strong>Remote</strong> Working",
-                    "2 years experience in working with foreigners"
+                    "3+ year experience in <strong>Docker - Kubernetes</strong>",
+                    "8 year experience in <strong>Remote</strong> Working",
+                    "4 years experience in working with foreigners"
                 ]
             },
             skills: [
@@ -81,15 +85,14 @@ const vm = new Vue({
                         "C# with Visual Studio",
                         "Docker - Kubernetes",
                         "Github/Gitlab CI/CD",
-                        "Golang"
                     ]
                 },
                 {
                     name: "Workflow",
                     skills: [
-                        "Version Control/Git",
+                        "Version Control/Git/AWS CodeCommit",
                         "Apache Subversion (SVN)",
-                        "Agile Scrum"
+                        "Agile Scrum",
                     ]
                 },
                 {
@@ -98,6 +101,7 @@ const vm = new Vue({
                         "Communication",
                         "Teamwork",
                         "Adaptability",
+                        "Leadership",
                         "Googling",
                         "Problem-Solving",
                         "Creativity",
@@ -108,12 +112,55 @@ const vm = new Vue({
             ],
             work_history: [
                 {
-                    job: "Software Engineer",
-                    company: ' | <a href="https://www.gforces.co.uk/" title="GForces">GForces</a>',
+                    job: "Technical Leader",
+                    company: ' | <a href="https://fptsoftware.com/" title="FPT Software">FPT Software</a>',
+                    time_period: "2022 - now",
+                    job_details: [
+                        {
+                            name: "FE Technical Leader of Symphony Vietnamese team",
+                            link: [{
+                                title: "Symphony",
+                                link: "https://symphony.com/"
+                            }]
+                        },
+                        {
+                            name: "Design, develop, modify, implement, and support software components anywhere in the Software stack."
+                        },
+                        {
+                            name: "Determine root cause for the most complex software issues and develop practical, efficient, and permanent technical solutions."
+                        },
+                        {
+                            name: "Assist in task, spike - POC, planning, estimation, scheduling, and staffing."
+                        },
+                        {
+                            name: "Mentor Software Engineers to allow for skill/knowledge development through advice, coaching, and training opportunities."
+                        },
+                        {
+                            name: "Determine process improvements, best practices, and develop new processes."
+                        }
+                    ]
+                },
+                {
+                    job: "Freelance Senior Fullstack Developer",
                     time_period: "2021 - now",
                     job_details: [
                         {
-                            name: "PHP, Angular Fullstack Developer"
+                            type: "job",
+                            name: 'Senior Software Engineer | <a href="https://www.atg.auto/" title="Automotive Transformation Group | Omnichannel Retailing Solutions">ATG</a>',
+                            details: [
+                                "Technologies: PHP (Yii2), Angular, AWS (CloudWatch, Lambda, CloudFormation, ...), TeamCity, Jenkins, ...",
+                                "Responsibility: Participate in develop, review and test new features, hotfix and maintain Online Payment & Valuation services"
+                            ]
+                        },
+                        {
+                            name: "ReactJS/Nodejs Developer in project Goodjobs of BNext team",
+                            title: "Fullstack Developer"
+                        },
+                        {
+                            name: "ReactJS Developer in project DatVang of BNext team"
+                        },
+                        {
+                            name: "Python(Django) Developer in project Rallyinside of ECEP team"
                         }
                     ]
                 },
@@ -124,21 +171,6 @@ const vm = new Vue({
                     job_details: [
                         {
                             name: ".Net, Angular Fullstack Developer, DevOps(backup) for project Fiber Bouwstraat"
-                        }
-                    ]
-                },
-                {
-                    job: "Freelance Fullstack Developer",
-                    time_period: "2021 - now",
-                    job_details: [
-                        {
-                            name: "ReactJS/Nodejs Developer in project Goodjobs of BNext team"
-                        },
-                        {
-                            name: "ReactJS Developer in project DatVang of BNext team"
-                        },
-                        {
-                            name: "Python(Django) Developer in project Rallyinside of ECEP team"
                         }
                     ]
                 },
@@ -291,16 +323,16 @@ const vm = new Vue({
             ],
             projects: [
                 {
+                    name: "Symphony",
+                    description: "The largest global community in Financial Services",
+                    participate_in: "FE Technical Leader of Symphony Vietnamese team",
+                    link: "https://symphony.com/"
+                },
+                {
                     name: "Online Payment & Valuation services",
                     description: "Industry-Leading Car Dealer Websites",
                     participate_in: "Participate in develop new feature, maintain Online Payment & Valuation services as Full-Stack PHP & Angular Developer",
                     link: "https://www.dealerwebsite.co.uk/"
-                },
-                {
-                    name: "Symphony",
-                    description: "The largest global community in Financial Services",
-                    participate_in: "Participate in develop new feature, maintain web app as ReactJS Frontend Developer",
-                    link: "https://symphony.com/"
                 },
                 {
                     name: "Fiber Bouwstraat",
@@ -331,6 +363,13 @@ const vm = new Vue({
                     participate_in: "Participate in develop new feature, maintain web app as Full-Stack Developer",
                     link: "https://chotructuyen.co/"
                 },
+            ],
+            certificates: [
+                {
+                    name: "Udacity - Cloud DevOps Engineer",
+                    image: "./assets/images/certs/udacity_cloud_devops_engineer.png",
+                    link: "https://graduation.udacity.com/confirm/e/f747e298-ac81-11ed-9bb9-3f308734bde6"
+                }
             ]
         }
     },

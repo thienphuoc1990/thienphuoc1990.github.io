@@ -117,6 +117,11 @@ ul.circle {
   margin-inline-end: 0px;
   padding-inline-start: 40px;
 }
+ul.circle.sub-list {
+  margin: 0;
+  font-size: 14px;
+  padding-inline-start: 20px;
+}
 .divider-separator {
   width: 200px;
   margin: 20px auto;
@@ -323,6 +328,15 @@ header nav.custom-nav.top-nav a.nav-link:hover {
   font-size: 12px;
 }
 /* End: Participate in the project */
+/* Begin: Certificates */
+#certificates {
+  margin-bottom: 20px;
+}
+#certificates .wrapper-cert-image img {
+  height: 150px;
+  width: auto;
+}
+/* End: Certificates */
 /* Begin: Footer */
 footer {
   background-color: #1a222c;

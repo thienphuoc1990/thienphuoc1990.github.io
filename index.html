@@ -149,9 +149,18 @@
                                                 v-html="period.company"></span></p>
                                         <h3 class="jobs">{{period.job}}</h3>
                                         <ul class="circle">
-                                            <li v-for="item in period.job_details">{{item.name}}<span v-if="item.link">: <a
-                                                        v-for="link in item.link" v-bind:href="link.link"
-                                                        v-bind:title="link.title">{{link.title}} </a></span></li>
+                                            <li v-for="item in period.job_details">
+                                                <span v-html="item.name"></span>
+                                                <span v-if="item.link && item.type !== 'job'">&nbsp;
+                                                    <a v-for="link in item.link" v-bind:href="link.link"
+                                                        v-bind:title="link.title">{{link.title}} </a>
+                                                    </span>
+                                                    <ul class="circle sub-list" v-if="item.type === 'job'">
+                                                        <li v-for="jobDetail in item.details">
+                                                            <span v-if="jobDetail" v-html="jobDetail"></span>
+                                                        </li>
+                                                    </ul>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -175,7 +184,8 @@
                                         <h3 class="name">{{project.name}}</h3>
                                         <p class="description">{{project.description}}</p>
                                         <p class="participate-in">{{project.participate_in}}</p>
-                                        <p v-if="project.link" class="link"><i class="fas fa-globe"></i> <a v-bind:href="project.link">{{project.link}}</a></p>
+                                        <p v-if="project.link" class="link"><i class="fas fa-globe"></i> <a
+                                                v-bind:href="project.link">{{project.link}}</a></p>
                                         <hr />
                                     </div>
                                 </div>
@@ -204,6 +214,28 @@
                             <!-- End: Education -->
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col">
+                            <!-- Begin: Certificates -->
+                            <section id="certificates" class="pt-50">
+                                <div class="row">
+                                    <div class="col">
+                                        <h2 class="section-title fancy"><span>Certificates</span></h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 cert" v-for="cert in certificates">
+                                        <div class="wrapper-cert-image">
+                                            <a v-bind:href="cert.link"v-bind:title="cert.name">
+                                                <img v-bind:src="cert.image" v-bind:alt="cert.name" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- End: Certificates -->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -215,7 +247,8 @@
                     <div class="col">© Phuoc Dinh</div>
                 </div>
             </div>
-            <div class="btn-to-top"><span class="icon-wrapper"><a href="#particles-js"><i class="fas fa-arrow-up"></i></a></span></div>
+            <div class="btn-to-top"><span class="icon-wrapper"><a href="#particles-js"><i
+                            class="fas fa-arrow-up"></i></a></span></div>
         </footer>
         <!-- End: Footer -->
     </div>
