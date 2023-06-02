@@ -117,10 +117,9 @@ const vm = new Vue({
                     time_period: "2022 - now",
                     job_details: [
                         {
-                            name: "FE Technical Leader of Symphony Vietnamese team",
+                            name: "FE Technical Leader of S Vietnamese team",
                             link: [{
-                                title: "Symphony",
-                                link: "https://symphony.com/"
+                                title: "S",
                             }]
                         },
                         {
@@ -323,10 +322,9 @@ const vm = new Vue({
             ],
             projects: [
                 {
-                    name: "Symphony",
+                    name: "S",
                     description: "The largest global community in Financial Services",
-                    participate_in: "FE Technical Leader of Symphony Vietnamese team",
-                    link: "https://symphony.com/"
+                    participate_in: "FE Technical Leader of S Vietnamese team",
                 },
                 {
                     name: "Online Payment & Valuation services",
