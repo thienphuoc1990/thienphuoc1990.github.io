@@ -141,7 +141,7 @@ const vm = new Vue({
                 },
                 {
                     job: "Freelance Senior Fullstack Developer",
-                    time_period: "2021 - now",
+                    time_period: "2018 - 2022",
                     job_details: [
                         {
                             type: "job",
@@ -176,7 +176,7 @@ const vm = new Vue({
                 {
                     job: "Outsource Web - Mobile - PC Application Developer",
                     company: ' | <a href="https://hdpsolutions.com/" title="HPDSolution">HPDSolution</a>',
-                    time_period: "2016 - 2021",
+                    time_period: "2016 - 2018",
                     job_details: [
                         {
                             name: "Develop Vuaphapthuat.go.vn auto application - C# (Use lib Auto IT, OpenCV, Tesseract OCR)",
