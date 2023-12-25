@@ -367,6 +367,16 @@ const vm = new Vue({
                     name: "Udacity - Cloud DevOps Engineer",
                     image: "./assets/images/certs/udacity_cloud_devops_engineer.png",
                     link: "https://graduation.udacity.com/confirm/e/f747e298-ac81-11ed-9bb9-3f308734bde6"
+                },
+                {
+                    name: "Udacity - Cloud Developer",
+                    image: "./assets/images/certs/udacity_cloud_developer.png",
+                    link: "https://graduation.udacity.com/confirm/e/31a3afd8-0396-11ee-82d2-af830a23aa19"
+                },
+                {
+                    name: "Udacity - AWS Cloud Architect",
+                    image: "./assets/images/certs/udacity_aws_cloud_architect.png",
+                    link: "https://graduation.udacity.com/confirm/e/6b3f1c80-5b4a-11ee-9b6e-a731b83cbbff"
                 }
             ]
         }
