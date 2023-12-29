@@ -136,6 +136,9 @@ const vm = new Vue({
                         },
                         {
                             name: "Determine process improvements, best practices, and develop new processes."
+                        },
+                        {
+                            name: "Tech Stack: ReactJS, AWS, Google Cloud, Jest, WebdriverIO, Playwright, Jenkins"
                         }
                     ]
                 },
@@ -147,13 +150,17 @@ const vm = new Vue({
                             type: "job",
                             name: 'Senior Software Engineer | <a href="https://www.atg.auto/" title="Automotive Transformation Group | Omnichannel Retailing Solutions">ATG</a>',
                             details: [
-                                "Technologies: PHP (Yii2), Angular, AWS (CloudWatch, Lambda, CloudFormation, ...), TeamCity, Jenkins, ...",
+                                "Tech Stack: PHP (Yii2), Angular, AWS (CloudWatch, Lambda, CloudFormation, ...), SST (serverless framework), TeamCity, Jenkins, Docker, ...",
                                 "Responsibility: Participate in develop, review and test new features, hotfix and maintain Online Payment & Valuation services"
                             ]
                         },
                         {
-                            name: "ReactJS/Nodejs Developer in project Goodjobs of BNext team",
-                            title: "Fullstack Developer"
+                            type: "job",
+                            name: "Senior Fullstack Developer | Goodjobs of BNext team",
+                            details: [
+                                "Tech Stack: ReactJS, NextJS, NodeJS, ExpressJS",
+                                "Responsibility: Participate in develop, review code and solution."
+                            ]
                         },
                         {
                             name: "ReactJS Developer in project DatVang of BNext team"
@@ -170,6 +177,9 @@ const vm = new Vue({
                     job_details: [
                         {
                             name: ".Net, Angular Fullstack Developer, DevOps(backup) for project Fiber Bouwstraat"
+                        },
+                        {
+                            name: "Tech Stack: .NET, Angular, Google Cloud, Docker, RabbitMQ, Reddit"
                         }
                     ]
                 },
@@ -246,6 +256,9 @@ const vm = new Vue({
                                     link: "http://sadoga.vn/"
                                 }
                             ]
+                        },
+                        {
+                            name: "Tech Stack: Wordpress, Laravel, ReactJS, React Native, C#, OpenCV, Auto IT, Tesseract OCR"
                         }
                     ]
                 },
