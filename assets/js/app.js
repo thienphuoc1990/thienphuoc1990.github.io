@@ -112,46 +112,33 @@ const vm = new Vue({
             ],
             work_history: [
                 {
-                    job: "Technical Leader",
-                    company: ' | <a href="https://fptsoftware.com/" title="FPT Software">FPT Software</a>',
-                    time_period: "2022 - now",
+                    job: "Software Engineer",
+                    company: ' | <a href="https://www.atg.auto/" title="Automotive Transformation Group | Omnichannel Retailing Solutions">Automotive Transformation Group | Omnichannel Retailing Solutions</a>',
+                    time_period: "2021 - now",
                     job_details: [
                         {
-                            name: "FE Technical Leader of S Vietnamese team",
-                            link: [{
-                                title: "S",
-                            }]
+                            name: "Tech Stack: PHP (Yii2), Angular, AWS (CloudWatch, Lambda, CloudFormation, ...), SST (serverless framework), TeamCity, Jenkins, Docker, ..."
                         },
                         {
-                            name: "Design, develop, modify, implement, and support software components anywhere in the Software stack."
-                        },
-                        {
-                            name: "Determine root cause for the most complex software issues and develop practical, efficient, and permanent technical solutions."
-                        },
-                        {
-                            name: "Assist in task, spike - POC, planning, estimation, scheduling, and staffing."
-                        },
-                        {
-                            name: "Mentor Software Engineers to allow for skill/knowledge development through advice, coaching, and training opportunities."
-                        },
-                        {
-                            name: "Determine process improvements, best practices, and develop new processes."
-                        },
-                        {
-                            name: "Tech Stack: ReactJS, AWS, Google Cloud, Jest, WebdriverIO, Playwright, Jenkins"
+                            name: "Responsibility: Participate in develop, review and test new features, hotfix and maintain Online Payment & Valuation services"
                         }
                     ]
                 },
                 {
-                    job: "Freelance Senior Fullstack Developer",
+                    job: "Freelance Senior Fullstack Developer | FE Technical Leader",
                     time_period: "2018 - 2022",
                     job_details: [
                         {
                             type: "job",
-                            name: 'Senior Software Engineer | <a href="https://www.atg.auto/" title="Automotive Transformation Group | Omnichannel Retailing Solutions">ATG</a>',
+                            name: 'FE Technical Leader of S Vietnamese team | <a href="https://fptsoftware.com/" title="FPT Software">FPT Software</a>',
                             details: [
-                                "Tech Stack: PHP (Yii2), Angular, AWS (CloudWatch, Lambda, CloudFormation, ...), SST (serverless framework), TeamCity, Jenkins, Docker, ...",
-                                "Responsibility: Participate in develop, review and test new features, hotfix and maintain Online Payment & Valuation services"
+                                "Tech Stack: ReactJS, AWS, Google Cloud, Jest, WebdriverIO, Playwright, Jenkins",
+                                "Design, develop, modify, implement, and support software components anywhere in the Software stack.",
+                                "Determine root cause for the most complex software issues and develop practical, efficient, and permanent technical solutions.",
+                                "Assist in task, spike - POC, planning, estimation, scheduling, and staffing.",
+                                "Mentor Software Engineers to allow for skill/knowledge development through advice, coaching, and training opportunities.",
+                                "Determine process improvements, best practices, and develop new processes.",
+                                "Tech Stack: ReactJS, AWS, Google Cloud, Jest, WebdriverIO, Playwright, Jenkins",
                             ]
                         },
                         {
@@ -335,15 +322,15 @@ const vm = new Vue({
             ],
             projects: [
                 {
-                    name: "S",
-                    description: "The largest global community in Financial Services",
-                    participate_in: "FE Technical Leader of S Vietnamese team",
-                },
-                {
                     name: "Online Payment & Valuation services",
                     description: "Industry-Leading Car Dealer Websites",
                     participate_in: "Participate in develop new feature, maintain Online Payment & Valuation services as Full-Stack PHP & Angular Developer",
                     link: "https://www.dealerwebsite.co.uk/"
+                },
+                {
+                    name: "S",
+                    description: "The largest global community in Financial Services",
+                    participate_in: "FE Technical Leader of S Vietnamese team",
                 },
                 {
                     name: "Fiber Bouwstraat",
