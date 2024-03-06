@@ -126,7 +126,7 @@ const vm = new Vue({
                 },
                 {
                     job: "Freelance Senior Fullstack Developer | FE Technical Leader",
-                    time_period: "2018 - 2022",
+                    time_period: "2018 - 2024",
                     job_details: [
                         {
                             type: "job",
